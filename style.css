@@ -32,7 +32,7 @@ body{
 }
 .rate-info{
     letter-spacing: 1px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 margin-left: 10px;
 }
 .info{
@@ -40,7 +40,7 @@ margin-left: 10px;
     color: hsl(216, 12%, 54%);
     font-weight: 400;
     font-size: 15px;
-   width: 80%;
+   margin:0 30px;
    font-family: 'Overpass', sans-serif; 
 }
 .image-star{
@@ -66,7 +66,9 @@ text-align: center;
     margin-bottom: 15px;
     cursor: pointer;
     
-
+}
+.submit:hover{
+    background-color: hsl(25, 97%, 53%) ;
 }
 .min-container{
     height: auto;
@@ -76,8 +78,9 @@ text-align: center;
    
     margin: auto;
     border-radius: 30px;
-height: 440px;
+height: 420px;
 width: 420px;
+
 
 
 }
@@ -112,6 +115,9 @@ cursor: pointer;
 
 
 }
+.rate:hover{
+    background-color: hsl(25, 97%, 53%) ;
+}
 .rate-pargrapgh{
     text-align: center;
     margin: auto;
@@ -119,9 +125,69 @@ cursor: pointer;
     color: hsl(0, 0%, 100%);
     
 }
-.rate:nth-of-type(4){
-    background-color:hsl(216, 12%, 54%) ;
-}
+
 .rate.active{
     background-color:hsl(25, 97%, 53%) ;
+}
+
+.svg2{
+    background-image: url(./images/illustration-thank-you.svg);
+    background-repeat: no-repeat;
+  background-position: center;  
+    height: 250px;
+    width: 250px;
+    margin-right: 50px;
+    margin-top: -100px;
+    
+    
+    
+}
+.thanks-popup{
+        background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       margin: auto;
+    border-radius: 30px;
+height: 420px;
+width: 420px;
+display: none;
+}
+.second-title h3{
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+ 
+ 
+ border: 1px solid #33475a ;
+ border-radius: 30px;
+ padding: 10px;
+    width: 50%;
+    transform: translate(50%);
+    margin-top: -40px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-left: -10px;
+}
+.thankyou-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.thankyou-section p{
+  color: hsl(216, 12%, 54%) ; 
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 35px;
+}
+.thankyou-section h1{
+    color: #fff;
+    margin-bottom: 25px;
+    
+}
+.hidden{
+    display: none;
 }
