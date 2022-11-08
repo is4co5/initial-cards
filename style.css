@@ -197,6 +197,42 @@ width: 420px;
          
      
      }
+.min-container{
+    width: 350px;
+}
+.total-rating{
+    gap: 10px;
+}
+.thanks-popup{
+  width:350px ;
+  overflow: hidden;
+  position: relative;    
+}
+.thanks-popup .svg2{
+  transform: translateY(25px);
+  margin-right: 5px;
+
+align-items: center;
+text-align: center;
+}
+.thanks-popup h3  {
+    position: absolute;
+    left: 4px;
+    bottom:140px;
+       text-align: center;
+     
+       margin-bottom: 70px;
+       padding: px 0;
+       
 
 
+}
+.second-title{
+    width: 100%;
+
+}
+
+.thanks-title{
+    margin-top: 70px;
+}
 }
