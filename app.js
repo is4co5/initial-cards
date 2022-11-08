@@ -1,22 +1,36 @@
 const submitting = document.querySelector('.submit');
-
-
+const firstContainer = document.querySelector('.min-container');
+const secondContainer = document.querySelector('.thanks-popup');
+const choosen = document.querySelector('.chosen');
 const rating = document.querySelectorAll('.rate');
-
+secondContainer.style.display = 'none';
+const ratingn= document.querySelectorAll('.rate-pargrapgh');
 rating.forEach((rate) => {
-    rate.addEventListener("click", function() {
-        removeactiveClass();
+    rate.addEventListener("click", ()=> {
+        removeactive();
         rate.classList.add('active');
         
        
     });
 })
-submitting.addEventListener("click", function(){ alert("Hello World!"); });
-
-
-function removeactiveClass(){
-    rating.forEach((rate) =>{
+function removeactive(){
+    rating.forEach((rate) => {
         rate.classList.remove('active');
 
     })
 }
+
+submitting.addEventListener("click", function (){
+   firstContainer.classList.add('hide');
+   secondContainer.style.display = 'flex';
+});
+
+
+
+
+ratingn.forEach((pargrapgh)  => {
+    pargrapgh.addEventListener("click",() => {
+       
+        choosen.innerHTML=" "+ pargrapgh.innerHTML
+    })
+}) 

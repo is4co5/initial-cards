@@ -152,14 +152,12 @@ cursor: pointer;
     border-radius: 30px;
 height: 420px;
 width: 420px;
-display: none;
+
 }
 .second-title h3{
     color: hsl(25, 97%, 53%);
     font-weight: 400;
- 
- 
- border: 1px solid #33475a ;
+  border: 1px solid #33475a ;
  border-radius: 30px;
  padding: 10px;
     width: 50%;
@@ -188,6 +186,6 @@ display: none;
     margin-bottom: 25px;
     
 }
-.hidden{
+.hide{
     display: none;
 }
